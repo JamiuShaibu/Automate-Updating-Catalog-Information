@@ -19,3 +19,19 @@ What you’ll do;
 >> Automatically send a PDF by email
 
 >> Write a script to check the health status of the system
+
+ORDER OF CODE IN REPO;
+
+1st: changeImage.py
+
+2nd: supplier_image_upload.py
+
+3rd: run.py
+
+4th: reports.py
+
+5th: report_email.py
+
+6th: emails.py
+
+7th: health_check.py
