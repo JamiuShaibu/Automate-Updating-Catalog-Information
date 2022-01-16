@@ -45,7 +45,7 @@ def main():
     # Check system resources:
     print("Checking system resources...")
     alert = None
-    if not check_cpu_usage():
+    if check_cpu_usage():
         alert = "Error - CPU usage is over 80%"
         send_alert(alert)
     elif not check_disk_usage('/'):
